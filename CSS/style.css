@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.centered{
+    display: block;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+.nav{
+    background-color: black;
+    padding: 10px;
+}
+.name{
+    text-decoration: underline;
+    background-color: black;
+    text-align: center;
+    color: goldenrod;
+    padding: 0.5rem;
+    letter-spacing: 5px;
+    font-size: 6rem;
+    font-weight: 100;
+}
+.name-text{
+    padding: 1.5rem;
+}
+.header{
+    padding: 0.5rem;
+    background-color: goldenrod;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 200;
+    letter-spacing: 25px;
+    text-transform: uppercase;
+}
+body{
+    background-color: slateblue;
+    font-size: 30px;
+}
+.content{
+    /* padding: 20px; */
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+    line-height: 50px;
+    padding: 30px;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.paragraph{
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.intro{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+}
+.picture{
+    padding: 15px;
+}
+
+a {
+    color: slateblue;
+    font-size: 25px;
+    text-decoration: none;
+    padding-right: 20px;
+}
+a:hover{
+    color: goldenrod;
+    transition: 0.5s ease;
+}
+.list{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: black;
+    color: goldenrod;
+    
+}
+.my-lists{
+    padding: 30px;
+    line-height: 80 px;
+    color: white;
+    letter-spacing: 2.5px;
+}
+.my-lists li{
+    display: inline-block;
+    padding: 2rem;
+    width: 50%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+.my-lists li:hover{
+    background-color: rgba(32, 8, 65, 0.76);
+    color: gold;
+    transition: .5s ease-in-out;
+
+}
+ul{
+    list-style: none;
+}
+.table{
+    width: 100%;
+    height: 30vh;
+    border-style: none;
+    text-align: center;
+    background-color: goldenrod;
+    padding: 20px;
+
+}
+.table-title{
+    padding: 20px;
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+}
+
+th{
+    letter-spacing: 2.5px;
+    text-decoration: underline;
+    padding: 15px;
+    border-style: solid;
+}
+.underlined{
+    text-decoration: underline;
+}
+#footer{
+    color: white;
+    font-size: 15px;
+}
+
+.car-images img{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+.container{
+    padding:1rem;
+    overflow: auto;
+    justify-content: center;
+}
